@@ -93,7 +93,7 @@ nav{
 }
 .dropdown-btn{
     position: relative;
-    
+    background-color: white;
     border: none;
     display: flex;
     justify-content: center;
@@ -204,10 +204,13 @@ text-transform: uppercase;
     align-items: center;
     min-height: 350px;
     background-color: rgb(92, 153, 0);
+    margin-bottom: 4rem;
+    text-align: center;
 }
 #container2 p{
     color: white;
     font-size: 23px;
+    
 }
 #container2 a{
    margin-top: 2rem;
@@ -219,4 +222,40 @@ text-transform: uppercase;
     border: 1.5px solid orange;
     background-color: orange;
     width: 140px;border-radius: 200px;
+}
+.mini-container3
+{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+.mini-container3 i{
+    margin: 1rem;
+    background-color: rgb(92, 153, 0);
+    padding: 1.3rem;
+    font-size: 30px;
+    transform: rotate(20deg);
+    border: 1px solid rgb(92, 153, 0);
+    border-radius: 50%;
+    color: white;
+}
+.container3-h4{
+    margin-top: 0.5rem;
+    font-weight: normal;
+}
+.container3-p{
+    padding: 0.6rem;
+    color: rgb(116, 112, 112);
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.container3-a{
+    color: orange;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 0.7rem;
 }
