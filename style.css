@@ -18,8 +18,8 @@ nav{
     display: flex;
     flex-direction: column;
     display: none;
-    
-    left: 40%;
+    width: 100%;
+   
 }
 .nav-links a{
     text-decoration: none;
@@ -28,8 +28,11 @@ nav{
     font-weight: bold;
 }
 .nav-links li{
+    display: flex;
+    justify-content: center;
     padding: 0.5rem;
     list-style: none;
+    width: 100%;
 
 }
 .nav-active{
@@ -80,3 +83,116 @@ nav{
 .toggle .line3{
     transform: rotate(45deg) translate(-2.5px,-6px);
 } 
+.dropdown-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+.dropdown-btn{
+    position: relative;
+    
+    border: none;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+    list-style: none;
+    width: 100%;
+    outline: none;
+    text-decoration: none;
+    color: rgb(116, 112, 112);
+    font-size: 11px;
+    font-weight: bold;
+    width:100%;
+    
+}
+.dropdown-container a{
+    font-weight: normal;
+    font-size: 14px;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    
+}
+.active{
+    padding-right: 2.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.nav-links li:hover{
+    background-color:rgb(92, 153, 0);
+}
+.dropdown-container a:hover{
+    background-color:rgb(92, 153, 0);
+    
+}
+.dropdown-btn:hover{
+    background-color:rgb(92, 153, 0);
+
+}
+#container1{
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    min-height: 500px;
+}
+.paragraph-container1{
+    padding: 1rem;
+    color: rgb(112, 108, 108);
+}
+.title-container1{
+    padding:  0 1rem;
+    font-size: 29px;
+}
+#container1 img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.links-container1{
+    display: flex;
+    flex-direction: column;
+}
+.sign-up
+{
+    margin: 1rem;
+display: flex;
+justify-content: center;
+padding: 0.6rem;
+text-decoration: none;
+color: white;
+border: 1.5px solid orange;
+background-color: orange;
+width: 140px;
+border-radius: 200px;
+font-size: 21px;
+text-transform: uppercase;
+}
+.sign-up:hover{
+    color: orange;
+    background-color: white;
+    transition: 0.5s;
+
+}
+.how-it-works{
+    margin: 0.5rem 1rem;
+display: flex;
+justify-content: center;
+padding: 0.6rem;
+text-decoration: none;
+color:  rgb(112, 108, 108);
+border: 1.5px solid  rgb(112, 108, 108);
+background-color: w;
+width: 200px;
+border-radius: 200px;
+font-size: 21px;
+text-transform: uppercase;
+}
+.how-it-works:hover{
+    background-color:  rgb(112, 108, 108);
+    color: white;
+    transition: 0.5s;
+}
