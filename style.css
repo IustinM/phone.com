@@ -13,6 +13,8 @@ nav{
     
 }
 .nav-links{
+    z-index: 1;
+    background-color: white;
     top: 4.5rem;
     position: absolute;
     display: flex;
