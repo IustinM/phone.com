@@ -432,3 +432,45 @@ text-transform: uppercase;
 .active3{
     color: rgb(92, 153, 0);
 }
+
+#container7{
+    background-color: rgba(0, 0, 0, 0.897);
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container7-h1{
+    color: rgba(146, 146, 146, 0.795);
+    font-size: 37px;
+}
+.container7-p{
+    margin-top: 1rem;
+    font-size: 19px;
+    color: rgba(146, 146, 146, 0.795);
+}
+.container7-number{
+    color: white;
+    font-size: 40px;
+    padding: 0.3rem;
+}
+.mini-number
+{margin-top: 1rem;
+font-size: 19px;
+color: rgba(146, 146, 146, 0.795);}
+.container7-a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(92, 153, 0);
+    padding: 1rem 6rem;
+    border-radius: 30px;
+    font-weight: bold;
+    margin: 1rem;
+    font-size: 19px;
+}
+.container7-a:hover{
+    transition: 0.5s;
+    background-color: rgb(67, 110, 1);
+
+}
