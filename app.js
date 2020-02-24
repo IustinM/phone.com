@@ -30,21 +30,21 @@ for (i = 0; i < dropdown.length; i++) {
 }
 
 $('#right-arrow').click(function(){
-  var currentSlide = $('.slide.active');
+  var currentSlide = $('.slide.active2');
   var nextSlide = currentSlide.next();
 
-  currentSlide.fadeOut(300).removeClass('active');
-  nextSlide.fadeIn(300).addClass('active');
+  currentSlide.fadeOut(300).removeClass('active2');
+  nextSlide.fadeIn(300).addClass('active2');
   if(nextSlide.length == 0){
-    $('.slide').first().fadeIn(300).addClass('active');
+    $('.slide').first().fadeIn(300).addClass('active2');
   }
 });
 $('#left-arrow').click(function(){
- var currentSlide = $('.slide.active');
+ var currentSlide = $('.slide.active2');
  var prevSlide = currentSlide.prev();
-  currentSlide.fadeOut(300).removeClass('active');
-  prevSlide.fadeIn(300).addClass('active');
+  currentSlide.fadeOut(300).removeClass('active2');
+  prevSlide.fadeIn(300).addClass('active2');
     if(prevSlide.length == 0){
-      $('.slide').last().fadeIn(300).addClass('active');
+      $('.slide').last().fadeIn(300).addClass('active2');
     }
 });
