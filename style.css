@@ -407,7 +407,7 @@ text-transform: uppercase;
 }
 .dropdown-container2{
     display: none;
-    display: flex;
+
     text-align: initial;
     margin: 0.5rem  4rem;
     font-size: 15px;
@@ -423,8 +423,11 @@ text-transform: uppercase;
     background-color: white;
 }
 #container6{
+    height: 450px;
     margin-top: 5rem;
     line-height: 25px;
+    display: flex;
+    flex-direction: column;
 }
 .active3{
     color: rgb(92, 153, 0);
