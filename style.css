@@ -319,3 +319,81 @@ text-transform: uppercase;
    
 }
 
+.slide{
+    position: absolute;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+   display: none;
+   /* background-color: #008000; */
+
+}
+#left-arrow{
+    color: white;
+    position: absolute;
+    left: 6px;
+   font-size: 22px;
+   top: 8rem;
+   cursor: pointer;
+   /* top: 4rem;
+   z-index: 1; */
+}
+.slide.active {
+    margin-left: 1.2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#container5{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#slider{
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.774);
+}
+#right-arrow{
+    color: white;
+    position: absolute;
+    right: 6px;
+    top: 8rem;
+    font-size: 22px;
+    cursor: pointer;
+}
+.description-slider{
+    margin: 1.5rem 1rem;
+    background-color: white;
+    padding: 1.5rem 1rem;
+}
+.imagine-slider{
+    display: flex;
+    justify-content: center;
+}
+.imagine-slider img{
+    border-radius: 50%;
+}
+.name{
+    display: flex;
+    margin: 0.5rem;
+    flex-direction: column;
+    align-items: center;
+}
+.name2{
+    color: white;
+    font-size: 15px;
+}
+.firma{
+    color: rgb(92, 153, 0);
+    font-size:15px ;
+    margin: 0.3rem;
+}
