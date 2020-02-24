@@ -407,7 +407,7 @@ text-transform: uppercase;
 }
 .dropdown-container2{
     display: none;
-
+    height: 100px;
     text-align: initial;
     margin: 0.5rem  4rem;
     font-size: 15px;
@@ -423,7 +423,7 @@ text-transform: uppercase;
     background-color: white;
 }
 #container6{
-    height: 450px;
+    height: 500px;
     margin-top: 5rem;
     line-height: 25px;
     display: flex;
