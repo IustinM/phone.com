@@ -28,6 +28,21 @@ for (i = 0; i < dropdown.length; i++) {
     }
   });
 }
+var dropdown = document.getElementsByClassName("dropdown-btn2");
+var i;
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+    this.classList.toggle("active3");
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display == "flex") {
+      dropdownContent.style.display = "none";
+  
+    } else {
+        dropdownContent.style.display = "flex";
+       
+    }
+  });
+}
 
 $('#right-arrow').click(function(){
   var currentSlide = $('.slide.active2');
