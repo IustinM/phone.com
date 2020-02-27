@@ -63,3 +63,21 @@ $('#left-arrow').click(function(){
       $('.slide').last().fadeIn(300).addClass('active2');
     }
 });
+var accordions = document.getElementsByClassName("accordion");
+
+
+for(var i=0 ;i< accordions.length;i++){
+    accordions[i].onclick =function (){
+    this.classList.toggle('is-open');
+    var content = this.nextElementSibling
+    
+    if(content.style.maxHeight){
+            // accordion is open,we need to close it
+            content.style.maxHeight = null ;
+    }
+    else{
+        content.style.maxHeight = content.scrollHeight + "px";
+    }
+
+    }
+}
