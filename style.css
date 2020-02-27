@@ -15,11 +15,12 @@ nav{
 .nav-links{
     z-index: 1;
     background-color: white;
-    top: 4.5rem;
+    top: -300px;
+    
     position: absolute;
     display: flex;
     flex-direction: column;
-    display: none;
+    transition: ease-in 0.5s;
     width: 100%;
    
 }
@@ -38,7 +39,7 @@ nav{
 
 }
 .nav-active{
-    display: flex;
+    top: 4.5rem;
 }
 .burger{
     display: block;
