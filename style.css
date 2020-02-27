@@ -537,13 +537,13 @@ button.accordion:hover,button.accordion.is-open{
     margin-top: 1.2rem;
 }
 .first-photos img{
-    margin: 1.5rem 1rem;
+    margin: 1.5rem 0rem;
     transform: translate(-505,-50%);
     filter: grayscale(100%);
     transition: 1s ease-in-out;
 }
 .second-photos img{
-    margin: 1.5rem 1rem;
+    margin: 1.5rem 0rem;
     transform: translate(-505,-50%);
     filter: grayscale(100%);
     transition: 1s ease-in-out;
