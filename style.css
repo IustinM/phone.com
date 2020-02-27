@@ -20,7 +20,7 @@ nav{
     z-index: 1;
     background-color: white;
     top: -300px;
-    /* position: absolute; */
+    /* - */
     display: flex;
     flex-direction: column;
     transition: ease-in 0.5s;
@@ -522,4 +522,32 @@ button.accordion:hover,button.accordion.is-open{
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-in-out;
+}
+#container8{
+    display: flex;
+    justify-content: center;
+}
+.first-photos{
+    display: flex;
+    flex-direction: column;
+}
+.second-photos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.2rem;
+}
+.first-photos img{
+    margin: 1.5rem 1rem;
+    transform: translate(-505,-50%);
+    filter: grayscale(100%);
+    transition: 1s ease-in-out;
+}
+.second-photos img{
+    margin: 1.5rem 1rem;
+    transform: translate(-505,-50%);
+    filter: grayscale(100%);
+    transition: 1s ease-in-out;
+}
+#container8 img:hover{
+    filter: grayscale(0%);
 }
