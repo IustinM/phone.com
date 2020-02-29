@@ -551,3 +551,148 @@ button.accordion:hover,button.accordion.is-open{
 #container8 img:hover{
     filter: grayscale(0%);
 }
+#container9{
+    background-color: rgba(10, 10, 10, 0.897);
+    height:  590px;
+}
+.container9-h1{
+    color:silver;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 2rem;
+    padding-left:3.2rem ;
+   
+}
+.mini9{
+    display: flex;
+    justify-content: space-around;
+
+}
+.mini9-first-links{
+display: flex;
+flex-direction: column;
+}
+.mini9-first-links a{
+    color: silver;
+    text-decoration: none;
+    padding: 0.3rem;
+    font-size: 13px;
+}
+.icons i {
+    color: white;
+    background-color: rgb(92, 153, 0);
+    border-radius: 50%;
+    padding: 0.7rem;
+    margin: 0.3rem;
+    width: 40px;
+    height: 40px;
+}
+.icons i:nth-child(1){
+    padding-left: 0.85rem;
+}
+
+.icons{
+    padding-top:0.2rem ;
+    padding-left: 3rem;
+}
+.mini9-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5rem;
+    background-color: rgba(54, 54, 54, 0.897);
+    text-align: center;
+}
+.mini9-h1{
+    color: white;
+    font-size: 18px;
+    padding:1rem;
+}
+.mini9-p{
+    color: white;
+    font-size: 13px;
+    padding:0.5rem 2rem;
+}
+
+.inputbla{
+    width: 250px;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    background-color: rgba(104, 101, 101, 0.452);
+    color: wheat;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.inbox-mini9{
+    
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.label-name{
+    position: absolute;
+    top: 14px;
+    bottom: 0px;
+    right: 113px;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    
+    color: silver;
+}
+.inbox-mini9{
+    display: flex;
+    justify-content: center;
+}
+.inbox-link{
+    display: flex;
+    align-items: center;
+   background-color: rgb(92, 153, 0);
+   border-top-right-radius: 30px;
+   border-bottom-right-radius: 30px;
+}
+.inbox-link a{
+    color: white;
+    text-decoration: none;
+    padding: 0 2rem;
+}
+.mini9-p2{
+    color: rgb(107, 107, 107);
+    font-size: 12px;
+    padding: 1rem;
+    line-height: 25px;
+}
+.mini9-p2 mark{
+    color: rgb(92, 153, 0);
+    background-color: rgba(54, 54, 54, 0.897);
+}
+.icons2 i{
+    color: white;
+    background-color: rgb(116, 112, 112);
+    border-radius: 50%;
+    padding: 0.7rem;
+    margin: 0.3rem;
+    width: 40px;
+    height: 40px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+    height: 80px;
+    
+
+}
+.footer p {
+    color: rgb(155, 155, 155);
+    font-size: 11px;
+    padding: 0.4rem;
+}
+.footer-p{
+    display: flex;
+    justify-content: center;
+}
