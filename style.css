@@ -240,13 +240,18 @@ text-transform: uppercase;
 .mini-container3 i{
     margin: 1rem;
     background-color: rgb(92, 153, 0);
-    padding: 1.3rem;
+    justify-content: center;
+    align-items: center;
     font-size: 30px;
     transform: rotate(20deg);
     border: 1px solid rgb(92, 153, 0);
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
+    display: flex;
     color: white;
 }
+
 .container3-h4{
     margin-top: 0.5rem;
     font-weight: normal;
